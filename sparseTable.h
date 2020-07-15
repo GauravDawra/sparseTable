@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <vector>
 #include <math.h>
 
@@ -11,7 +12,7 @@ enum type{
     Sum, 
     Gcd
 };
-void print();
+
 template<type T>
 class sparseTable{
     const static int N = 200010;

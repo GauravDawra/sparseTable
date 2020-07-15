@@ -1,13 +1,10 @@
 #include "sparseTable.h"
 
 #include <vector>
-#include<iostream>
+#include <iostream>
+#include <math.h>
 
 using namespace std;
-
-void print(){
-    cout<<"hello";
-}
 
 template<type T>
 void sparseTable<T>::buildLog(){
